@@ -1,0 +1,16 @@
+{
+  "name": "binarysite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i src/main.css -o public/style.css --watch",
+    "build": "npx tailwindcss -i src/main.css -o public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

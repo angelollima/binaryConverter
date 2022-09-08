@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply
+    outline-none p-1 pl-3 rounded-full border border-input_border;
+};
+
+.td {
+    @apply
+    border border-gray-800 text-center text-white rounded-lg;
+};
